@@ -1,0 +1,62 @@
+html,body{
+    margin: 10;
+    padding: 10;
+    background-color: antiquewhite;
+   
+}
+
+.container{
+    height: 500px;
+    background-color: rgba(190, 196, 177, 0.139);
+    
+    
+}
+
+h1{
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+button{
+    margin-top: 0;
+    padding: 10px;
+    background-color: rgba(234, 190, 140, 0.696);
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 200px;
+    text-align: center;
+    
+    
+}
+
+.grid{
+    width: 200px;
+    height: 200px;
+    border: solid 5px black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    
+
+}
+
+.square{
+    width: 20px;
+    height: 20px;
+    
+    
+}
+
+.snake{
+    background-color: rgb(6, 64, 146);
+   
+    
+}
+
+.apple{
+    background-color: rgba(111, 120, 238, 0.834);
+}
